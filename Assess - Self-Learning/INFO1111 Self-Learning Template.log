@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.7)  21 APR 2023 18:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.7)  21 APR 2023 23:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -562,7 +562,59 @@ File: Level A Demo Code2.jpg Graphic file (type jpg)
 Package pdftex.def Info: Level A Demo Code2.jpg  used on input line 146.
 (pdftex.def)             Requested size: 184.9429pt x 181.8037pt.
 [4 <./Level A Demo.jpg> <./Level A Demo Code1.jpg> <./Level A Demo Code2.jpg>]
-[5] [6] [7]
+<Level B Demo.jpg, id=147, 964.35281pt x 566.115pt>
+File: Level B Demo.jpg Graphic file (type jpg)
+<use Level B Demo.jpg>
+Package pdftex.def Info: Level B Demo.jpg  used on input line 168.
+(pdftex.def)             Requested size: 227.62204pt x 133.62444pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--170
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--170
+
+ []
+
+<Level B Demo2.jpg, id=148, 962.84718pt x 564.60938pt>
+File: Level B Demo2.jpg Graphic file (type jpg)
+<use Level B Demo2.jpg>
+Package pdftex.def Info: Level B Demo2.jpg  used on input line 173.
+(pdftex.def)             Requested size: 227.62204pt x 133.47581pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--176
+
+ []
+
+[5 <./Level B Demo.jpg> <./Level B Demo2.jpg>]
+<Level B Demo Code1.jpg, id=153, 540.51938pt x 566.86781pt>
+File: Level B Demo Code1.jpg Graphic file (type jpg)
+<use Level B Demo Code1.jpg>
+Package pdftex.def Info: Level B Demo Code1.jpg  used on input line 177.
+(pdftex.def)             Requested size: 227.62204pt x 238.71428pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--179
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--179
+
+ []
+
+<Level B Demo Code2.jpg, id=154, 654.19406pt x 569.12625pt>
+File: Level B Demo Code2.jpg Graphic file (type jpg)
+<use Level B Demo Code2.jpg>
+Package pdftex.def Info: Level B Demo Code2.jpg  used on input line 184.
+(pdftex.def)             Requested size: 184.9429pt x 160.89136pt.
+<Level B Demo Code3.jpg, id=155, 688.07062pt x 542.77782pt>
+File: Level B Demo Code3.jpg Graphic file (type jpg)
+<use Level B Demo Code3.jpg>
+Package pdftex.def Info: Level B Demo Code3.jpg  used on input line 186.
+(pdftex.def)             Requested size: 184.9429pt x 145.88939pt.
+[6 <./Level B Demo Code1.jpg> <./Level B Demo Code2.jpg> <./Level B Demo Code3.
+jpg>] [7] [8]
 No file "INFO1111 Self-Learning Template".bbl.
 (INFO1111 Self-Learning Template.aux)
 
@@ -573,13 +625,13 @@ ot changed.
 (rerunfilecheck)             Checksum: D6558721B591636046E4E4FC48DC4384;3293.
  ) 
 Here is how much of TeX's memory you used:
- 12505 strings out of 476334
- 211343 string characters out of 5785576
+ 12571 strings out of 476334
+ 212944 string characters out of 5785576
  1861382 words of memory out of 5000000
- 32748 multiletter control sequences out of 15000+600000
+ 32807 multiletter control sequences out of 15000+600000
  526520 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,76p,509b,515s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,76p,550b,515s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Justin Liu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi657
 \ecti1000.pk> <C:\Users\Justin Liu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
 n/ec/dpi600\ecrm1000.pk> <C:\Users\Justin Liu\AppData\Local\MiKTeX\fonts/pk/ljf
@@ -595,10 +647,10 @@ ur/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Justin Liu\AppData\Local\MiKTeX\fo
 nts/pk/ljfour/jknappen/ec/dpi657\ectt1000.pk> <C:\Users\Justin Liu\AppData\Loca
 l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi657\ecbx1000.pk> <C:\Users\Justin Liu\A
 ppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi1037\ecbx1200.pk>
-Output written on "INFO1111 Self-Learning Template.pdf" (8 pages, 286789 bytes)
+Output written on "INFO1111 Self-Learning Template.pdf" (9 pages, 549445 bytes)
 .
 PDF statistics:
- 544 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 557 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

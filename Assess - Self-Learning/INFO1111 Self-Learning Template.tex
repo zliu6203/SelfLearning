@@ -157,13 +157,34 @@ Whilst level A is about doing something simple with the topic to just show that 
 
 \subsection{Level B Demonstration}
 
-This is a short description of the application that you have developed in order to demonstration your understanding. (50-100 words).
+The application I have developed is a simple game in PyGame. This involves the three points in the level B proposal: events such as scenes, making a simple game with an end goal (win/lose), and program simple enemies. I have demonstrated the first point by making different levels in the game, satisfied the second point by creating a game with a goal (to finish all 5 levels), and also programmed simple enemies with random movement and bouncing back from the screen if it goes offscreen.
 
 \subsection{Application artifacts}
 
-Include here a description of what you actually created (what does it do? How does it work? How did you create it?). Include any code or other related artefacts that you created (these should also be included in your github repository).
+I have created a simple topdown shooter game using built-in assets, modules, and tools only. The game I have made is simple: shoot all enemies using a periodic laser which can destroy all enemies collided with the laser. I used classes and small aspects of object oriented programming to achieve this.
 
-If you do include screengrabs to show what you have done then these should be annotated to explain what it is showing and what the application does.
+In the following screengrab, the player can shoot a laser which only fires when the left mouse button is pressed and the cooldown for the laser is done. This laser collides with all enemies within its vicinity and destroys them. The player in blue and white can be controlled using WASD and the laser is shot in the direction of the cursor.
+\\
+\includegraphics[width=8cm]{Level B Demo}\\[1cm]
+\\
+
+This screengrab shows the huge number of enemies in level 4 of this game:
+\\
+\includegraphics[width=8cm]{Level B Demo2}\\[1cm]
+\\
+This code snippet shows the object oriented programming and the hierarchy of classes and objects. The Entity class includes both the Player and Enemy classes as its children. The enemy class also contains code for random movement (see more in GitHub).
+
+\includegraphics[width=8cm]{Level B Demo Code1}\\[1cm]
+\\
+
+These two code snippets shows the Game class being the main class which handles all the events.
+
+\begin{figure}[!htb]%
+    \centering
+    \subfloat[\centering Code showing Game class]{{\includegraphics[width=6.5cm]{Level B Demo Code2} }}%
+    \qquad
+    \subfloat[\centering Code showing how enemies work]{{\includegraphics[width=6.5cm]{Level B Demo Code3} }}%
+\end{figure}
 
 
 %=============================================================================
