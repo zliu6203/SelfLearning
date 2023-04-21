@@ -1,0 +1,21 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1.}Level A: Initial Understanding}{3}{section.0.1}%
+\contentsline {subsection}{\numberline {1.1.}Level A Demonstration}{3}{subsection.0.1.1}%
+\contentsline {subsection}{\numberline {1.2.}Learning Approach}{3}{subsection.0.1.2}%
+\contentsline {subsection}{\numberline {1.3.}Challenges and Difficulties}{3}{subsection.0.1.3}%
+\contentsline {subsection}{\numberline {1.4.}Learning Sources}{3}{subsection.0.1.4}%
+\contentsline {subsection}{\numberline {1.5.}Application artifacts}{4}{subsection.0.1.5}%
+\contentsline {section}{\numberline {2.}Level B: Basic Application}{5}{section.0.2}%
+\contentsline {subsection}{\numberline {2.1.}Level B Demonstration}{5}{subsection.0.2.1}%
+\contentsline {subsection}{\numberline {2.2.}Application artifacts}{5}{subsection.0.2.2}%
+\contentsline {section}{\numberline {3.}Level C: Deeper Understanding}{6}{section.0.3}%
+\contentsline {subsection}{\numberline {3.1.}Strengths}{6}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {3.2.}Weaknesses}{6}{subsection.0.3.2}%
+\contentsline {subsection}{\numberline {3.3.}Usefulness}{6}{subsection.0.3.3}%
+\contentsline {subsection}{\numberline {3.4.}Key Question 1}{6}{subsection.0.3.4}%
+\contentsline {subsection}{\numberline {3.5.}Key Question 2}{6}{subsection.0.3.5}%
+\contentsline {section}{\numberline {4.}Level D: Evolution of skills}{7}{section.0.4}%
+\contentsline {subsection}{\numberline {4.1.}Level D Demonstration}{7}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {4.2.}Application artifacts}{7}{subsection.0.4.2}%
+\contentsline {subsection}{\numberline {4.3.}Alternative tools/technologies}{7}{subsection.0.4.3}%
+\contentsline {subsection}{\numberline {4.4.}Comparative Analysis}{7}{subsection.0.4.4}%
