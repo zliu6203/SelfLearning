@@ -7,6 +7,7 @@ pygame.mixer.init()
 # initialise some values
 WIDTH, HEIGHT = 1280, 720
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
+pygame.display.set_caption("Level A Demo")
 FPS = 60
 
 BG_COLOUR = (125, 125, 125)
@@ -17,10 +18,6 @@ def draw(timer):
     # get the mouse position
     MOUSE_X, MOUSE_Y = pygame.mouse.get_pos()
 
-    """ 
-    this section ensures that the blue square doesn't go past
-    the red line 
-    """
     if MOUSE_X > 370:
         MOUSE_X = 370
         SOUND1 = pygame.mixer.Sound(os.path.join('sound_effect1.wav'))
