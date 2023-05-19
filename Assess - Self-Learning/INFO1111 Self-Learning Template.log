@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.7)  19 MAY 2023 23:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.7)  20 MAY 2023 00:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -407,6 +407,8 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cfttabindent=\skip94
 \cfttabnumwidth=\skip95
 )
+   defining Unicode char U+202F (decimal 8239)
+
 (C:\Users\Justin Liu\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backen
 d-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
@@ -415,24 +417,24 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 ) (INFO1111 Self-Learning Template.aux)
 \openout1 = `"INFO1111 Self-Learning Template.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -468,7 +470,7 @@ LaTeX Font Info:    ... okay on input line 32.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 32.
+Package hyperref Info: Link coloring OFF on input line 33.
 (INFO1111 Self-Learning Template.out) (INFO1111 Self-Learning Template.out)
 \@outlinefile=\write3
 \openout3 = `"INFO1111 Self-Learning Template.out"'.
@@ -504,21 +506,21 @@ Package caption Info: End \AtBeginDocument code.
 <USyd.jpg, id=83, 257.46187pt x 89.58469pt>
 File: USyd.jpg Graphic file (type jpg)
 <use USyd.jpg>
-Package pdftex.def Info: USyd.jpg  used on input line 45.
+Package pdftex.def Info: USyd.jpg  used on input line 46.
 (pdftex.def)             Requested size: 113.81102pt x 39.60054pt.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 53.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 54.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 53.
+(Font)              <10.95> on input line 54.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 53.
+(Font)              <8> on input line 54.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 53.
+(Font)              <6> on input line 54.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 56.
+(Font)              <12> on input line 57.
 [1
 
 {C:/Users/Justin Liu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./USyd.
@@ -526,317 +528,292 @@ jpg>] (INFO1111 Self-Learning Template.toc)
 \tf@toc=\write4
 \openout4 = `"INFO1111 Self-Learning Template.toc"'.
 
- [1]
-
-LaTeX Warning: Citation `usyd2' on page 2 undefined on input line 88.
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 118--135
+ [1] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 119--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--135
+Underfull \hbox (badness 10000) in paragraph at lines 119--136
 
  []
 
 [3]
-<Level A Demo.jpg, id=140, 961.34157pt x 560.0925pt>
+<Level A Demo.jpg, id=142, 961.34157pt x 560.0925pt>
 File: Level A Demo.jpg Graphic file (type jpg)
 <use Level A Demo.jpg>
-Package pdftex.def Info: Level A Demo.jpg  used on input line 138.
+Package pdftex.def Info: Level A Demo.jpg  used on input line 139.
 (pdftex.def)             Requested size: 227.62204pt x 132.61311pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--141
+Underfull \hbox (badness 10000) in paragraph at lines 139--142
 
  []
 
-<Level A Demo Code1.jpg, id=141, 515.67656pt x 459.21562pt>
+<Level A Demo Code1.jpg, id=143, 515.67656pt x 459.21562pt>
 File: Level A Demo Code1.jpg Graphic file (type jpg)
 <use Level A Demo Code1.jpg>
-Package pdftex.def Info: Level A Demo Code1.jpg  used on input line 144.
+Package pdftex.def Info: Level A Demo Code1.jpg  used on input line 145.
 (pdftex.def)             Requested size: 184.9429pt x 164.69386pt.
-<Level A Demo Code2.jpg, id=142, 398.99063pt x 392.21532pt>
+<Level A Demo Code2.jpg, id=144, 398.99063pt x 392.21532pt>
 File: Level A Demo Code2.jpg Graphic file (type jpg)
 <use Level A Demo Code2.jpg>
-Package pdftex.def Info: Level A Demo Code2.jpg  used on input line 146.
+Package pdftex.def Info: Level A Demo Code2.jpg  used on input line 147.
 (pdftex.def)             Requested size: 184.9429pt x 181.8037pt.
 [4 <./Level A Demo.jpg> <./Level A Demo Code1.jpg> <./Level A Demo Code2.jpg>]
-<Level B Demo.jpg, id=149, 964.35281pt x 566.115pt>
+<Level B Demo.jpg, id=151, 964.35281pt x 566.115pt>
 File: Level B Demo.jpg Graphic file (type jpg)
 <use Level B Demo.jpg>
-Package pdftex.def Info: Level B Demo.jpg  used on input line 168.
+Package pdftex.def Info: Level B Demo.jpg  used on input line 169.
 (pdftex.def)             Requested size: 227.62204pt x 133.62444pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--170
+Underfull \hbox (badness 10000) in paragraph at lines 167--171
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--170
+Underfull \hbox (badness 10000) in paragraph at lines 167--171
 
  []
 
-<Level B Demo2.jpg, id=150, 962.84718pt x 564.60938pt>
+<Level B Demo2.jpg, id=152, 962.84718pt x 564.60938pt>
 File: Level B Demo2.jpg Graphic file (type jpg)
 <use Level B Demo2.jpg>
-Package pdftex.def Info: Level B Demo2.jpg  used on input line 173.
+Package pdftex.def Info: Level B Demo2.jpg  used on input line 174.
 (pdftex.def)             Requested size: 227.62204pt x 133.47581pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--176
+Underfull \hbox (badness 10000) in paragraph at lines 172--177
 
  []
 
 [5 <./Level B Demo.jpg> <./Level B Demo2.jpg>]
-<Level B Demo Code1.jpg, id=155, 540.51938pt x 566.86781pt>
+<Level B Demo Code1.jpg, id=157, 540.51938pt x 566.86781pt>
 File: Level B Demo Code1.jpg Graphic file (type jpg)
 <use Level B Demo Code1.jpg>
-Package pdftex.def Info: Level B Demo Code1.jpg  used on input line 177.
+Package pdftex.def Info: Level B Demo Code1.jpg  used on input line 178.
 (pdftex.def)             Requested size: 227.62204pt x 238.71428pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--179
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--179
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
 
  []
 
-<Level B Demo Code2.jpg, id=156, 654.19406pt x 569.12625pt>
+<Level B Demo Code2.jpg, id=158, 654.19406pt x 569.12625pt>
 File: Level B Demo Code2.jpg Graphic file (type jpg)
 <use Level B Demo Code2.jpg>
-Package pdftex.def Info: Level B Demo Code2.jpg  used on input line 184.
+Package pdftex.def Info: Level B Demo Code2.jpg  used on input line 185.
 (pdftex.def)             Requested size: 184.9429pt x 160.89136pt.
-<Level B Demo Code3.jpg, id=157, 688.07062pt x 542.77782pt>
+<Level B Demo Code3.jpg, id=159, 688.07062pt x 542.77782pt>
 File: Level B Demo Code3.jpg Graphic file (type jpg)
 <use Level B Demo Code3.jpg>
-Package pdftex.def Info: Level B Demo Code3.jpg  used on input line 186.
+Package pdftex.def Info: Level B Demo Code3.jpg  used on input line 187.
 (pdftex.def)             Requested size: 184.9429pt x 145.88939pt.
 [6 <./Level B Demo Code1.jpg> <./Level B Demo Code2.jpg> <./Level B Demo Code3.
-jpg>]
-
-LaTeX Warning: Citation `pygame_pros' on page 7 undefined on input line 198.
-
-
-LaTeX Warning: Citation `pygame_cons' on page 7 undefined on input line 201.
-
-
-LaTeX Warning: Citation `pygame_uses' on page 7 undefined on input line 204.
-
-
-LaTeX Warning: Citation `pygame_3d' on page 7 undefined on input line 207.
-
-
-LaTeX Warning: Citation `pygame_python' on page 7 undefined on input line 210.
-
-[7] [8]
-<auto-py-to-exe.jpg, id=172, 470.50781pt x 493.0922pt>
+jpg>] [7] [8]
+<auto-py-to-exe.jpg, id=184, 470.50781pt x 493.0922pt>
 File: auto-py-to-exe.jpg Graphic file (type jpg)
 <use auto-py-to-exe.jpg>
-Package pdftex.def Info: auto-py-to-exe.jpg  used on input line 227.
+Package pdftex.def Info: auto-py-to-exe.jpg  used on input line 228.
 (pdftex.def)             Requested size: 426.79135pt x 447.27751pt.
-<mainmenu.jpg, id=173, 964.35281pt x 560.8453pt>
+<mainmenu.jpg, id=185, 964.35281pt x 560.8453pt>
 File: mainmenu.jpg Graphic file (type jpg)
 <use mainmenu.jpg>
-Package pdftex.def Info: mainmenu.jpg  used on input line 234.
+Package pdftex.def Info: mainmenu.jpg  used on input line 235.
 (pdftex.def)             Requested size: 341.43437pt x 198.5666pt.
-<menu_code.jpg, id=174, 566.115pt x 353.06906pt>
+<menu_code.jpg, id=186, 566.115pt x 353.06906pt>
 File: menu_code.jpg Graphic file (type jpg)
 <use menu_code.jpg>
-Package pdftex.def Info: menu_code.jpg  used on input line 239.
+Package pdftex.def Info: menu_code.jpg  used on input line 240.
 (pdftex.def)             Requested size: 341.43437pt x 212.94748pt.
 
-
-LaTeX Warning: Citation `freesound' on page 9 undefined on input line 243.
-
-
-LaTeX Warning: Citation `pygame_mixer' on page 9 undefined on input line 243.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--245
+Underfull \hbox (badness 10000) in paragraph at lines 225--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--245
+Underfull \hbox (badness 10000) in paragraph at lines 225--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--245
+Underfull \hbox (badness 10000) in paragraph at lines 225--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--245
+Underfull \hbox (badness 10000) in paragraph at lines 225--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--245
+Underfull \hbox (badness 10000) in paragraph at lines 225--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--245
+Underfull \hbox (badness 10000) in paragraph at lines 225--246
 
  []
 
 [9 <./auto-py-to-exe.jpg>]
-<flstudio.jpg, id=180, 692.5875pt x 550.30594pt>
+<flstudio.jpg, id=194, 692.5875pt x 550.30594pt>
 File: flstudio.jpg Graphic file (type jpg)
 <use flstudio.jpg>
-Package pdftex.def Info: flstudio.jpg  used on input line 248.
+Package pdftex.def Info: flstudio.jpg  used on input line 249.
 (pdftex.def)             Requested size: 256.07741pt x 203.47565pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<shootingsound.jpg, id=181, 584.93532pt x 258.9675pt>
+<shootingsound.jpg, id=195, 584.93532pt x 258.9675pt>
 File: shootingsound.jpg Graphic file (type jpg)
 <use shootingsound.jpg>
-Package pdftex.def Info: shootingsound.jpg  used on input line 253.
+Package pdftex.def Info: shootingsound.jpg  used on input line 254.
 (pdftex.def)             Requested size: 341.43437pt x 151.16936pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--259
+Underfull \hbox (badness 10000) in paragraph at lines 257--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--259
+Underfull \hbox (badness 10000) in paragraph at lines 257--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--259
+Underfull \hbox (badness 10000) in paragraph at lines 257--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--259
+Underfull \hbox (badness 10000) in paragraph at lines 257--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--259
+Underfull \hbox (badness 10000) in paragraph at lines 257--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--259
+Underfull \hbox (badness 10000) in paragraph at lines 257--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--259
+Underfull \hbox (badness 10000) in paragraph at lines 257--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--259
+Underfull \hbox (badness 10000) in paragraph at lines 257--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--259
+Underfull \hbox (badness 10000) in paragraph at lines 257--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--259
+Underfull \hbox (badness 10000) in paragraph at lines 257--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--259
+Underfull \hbox (badness 10000) in paragraph at lines 257--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--259
+Underfull \hbox (badness 10000) in paragraph at lines 257--260
 
  []
 
 [10 <./mainmenu.jpg> <./menu_code.jpg>] [11 <./flstudio.jpg> <./shootingsound.j
 pg>]
-<csv.jpg, id=194, 693.34032pt x 402.00188pt>
+<csv.jpg, id=210, 693.34032pt x 402.00188pt>
 File: csv.jpg Graphic file (type jpg)
 <use csv.jpg>
-Package pdftex.def Info: csv.jpg  used on input line 262.
+Package pdftex.def Info: csv.jpg  used on input line 263.
 (pdftex.def)             Requested size: 341.43437pt x 197.97021pt.
-<random_spawn.jpg, id=195, 587.94656pt x 320.69812pt>
+<random_spawn.jpg, id=211, 587.94656pt x 320.69812pt>
 File: random_spawn.jpg Graphic file (type jpg)
 <use random_spawn.jpg>
-Package pdftex.def Info: random_spawn.jpg  used on input line 267.
+Package pdftex.def Info: random_spawn.jpg  used on input line 268.
 (pdftex.def)             Requested size: 341.43437pt x 186.23502pt.
  [12 <./csv.jpg> <./random_spawn.jpg>]
-<normal_enemy.jpg, id=203, 703.12688pt x 330.48468pt>
+<normal_enemy.jpg, id=219, 703.12688pt x 330.48468pt>
 File: normal_enemy.jpg Graphic file (type jpg)
 <use normal_enemy.jpg>
-Package pdftex.def Info: normal_enemy.jpg  used on input line 289.
+Package pdftex.def Info: normal_enemy.jpg  used on input line 290.
 (pdftex.def)             Requested size: 341.43437pt x 160.4765pt.
-<regen_enemy.jpg, id=204, 679.78969pt x 417.81094pt>
+<regen_enemy.jpg, id=220, 679.78969pt x 417.81094pt>
 File: regen_enemy.jpg Graphic file (type jpg)
 <use regen_enemy.jpg>
-Package pdftex.def Info: regen_enemy.jpg  used on input line 294.
+Package pdftex.def Info: regen_enemy.jpg  used on input line 295.
 (pdftex.def)             Requested size: 341.43437pt x 209.8485pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--297
+Underfull \hbox (badness 10000) in paragraph at lines 284--298
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--297
+Underfull \hbox (badness 10000) in paragraph at lines 284--298
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--297
+Underfull \hbox (badness 10000) in paragraph at lines 284--298
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--297
+Underfull \hbox (badness 10000) in paragraph at lines 284--298
 
  []
 
-<level4-5.jpg, id=205, 959.83594pt x 563.10374pt>
+<level4-5.jpg, id=221, 959.83594pt x 563.10374pt>
 File: level4-5.jpg Graphic file (type jpg)
 <use level4-5.jpg>
-Package pdftex.def Info: level4-5.jpg  used on input line 300.
+Package pdftex.def Info: level4-5.jpg  used on input line 301.
 (pdftex.def)             Requested size: 341.43437pt x 200.31136pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13 <./normal_enemy.jpg> <./regen_enemy.jpg>]
 
-LaTeX Warning: Citation `unity_pygame' on page 14 undefined on input line 310.
-
-
-LaTeX Warning: Citation `unity_unreal' on page 14 undefined on input line 312.
+LaTeX Warning: Citation `pygame_unity' on page 14 undefined on input line 311.
 
 [14 <./level4-5.jpg>]
-No file "INFO1111 Self-Learning Template".bbl.
-(INFO1111 Self-Learning Template.aux)
+
+(INFO1111 Self-Learning Template.bbl) [15
+
+] (INFO1111 Self-Learning Template.aux)
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `"INFO1111 Self-Learning Template".out' has n
 ot changed.
 (rerunfilecheck)             Checksum: 4E9D8C816CE312A630E8738A922DAC4A;4143.
  ) 
 Here is how much of TeX's memory you used:
- 12707 strings out of 476334
- 215447 string characters out of 5785576
+ 12743 strings out of 476334
+ 216079 string characters out of 5785576
  1861382 words of memory out of 5000000
- 32928 multiletter control sequences out of 15000+600000
+ 32950 multiletter control sequences out of 15000+600000
  525834 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,76p,788b,515s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,76p,779b,515s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Justin Liu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
 \ecrm1000.pk> <C:\Users\Justin Liu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
 n/ec/dpi650\ecbx1200.pk> <C:\Users\Justin Liu\AppData\Local\MiKTeX\fonts/pk/ljf
@@ -851,10 +828,10 @@ ecrm1200.pk> <C:\Users\Justin Liu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
 ur/jknappen/ec/dpi657\ectt1000.pk> <C:\Users\Justin Liu\AppData\Local\MiKTeX\fo
 nts/pk/ljfour/jknappen/ec/dpi657\ecbx1000.pk> <C:\Users\Justin Liu\AppData\Loca
 l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi1037\ecbx1200.pk>
-Output written on "INFO1111 Self-Learning Template.pdf" (15 pages, 1174530 byte
+Output written on "INFO1111 Self-Learning Template.pdf" (16 pages, 1187206 byte
 s).
 PDF statistics:
- 589 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
+ 640 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
  256 words of extra memory for PDF output out of 10000 (max. 10000000)
 
