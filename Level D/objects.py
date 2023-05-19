@@ -36,7 +36,7 @@ class Player(Entity):
 
     def __init__(self, x, y, speed):
         super().__init__(x, y, speed)
-        self.maxhealth = 200
+        self.maxhealth = 2a00
         self.health = self.maxhealth
 
 
@@ -59,10 +59,12 @@ class Enemy(Entity):
         super().__init__(x, y, 0)
         self.s = random.randrange(5, 21) / 10
 
-    def show_healthbar(self, health, maxhealth):
-        pygame.draw.rect(WIN, "red", (self.x - 6, self.y - 15, 40, 5))
+    def show_healthbar(self, health, maxhealth, threshold_x = -6, threshold_y = 15):
         pygame.draw.rect(WIN,
-                         "green", (self.x - 6, self.y - 15,
+                         "red", (self.x + threshold_x, self.y - threshold_y,
+                                 40, 5))
+        pygame.draw.rect(WIN,
+                         "green", (self.x + threshold_x, self.y - threshold_y,
                                    (health * 40) / maxhealth, 5))
 
     @abstractmethod
@@ -183,9 +185,10 @@ class BossEnemy(Enemy):
     def __init__(self, x, y):
         super().__init__(x, y)
         self.s = random.randint(12, 22) / 10
-        self.maxhealth = random.randint(1900, 2100)
+        self.maxhealth = random.randint(900, 1100)
         self.health = self.maxhealth
         self.timer = 0
+
 
     def display(self):
         self.timer += 1
@@ -198,17 +201,18 @@ class BossEnemy(Enemy):
         if 0 < self.x + 8 < 1280 and 0 < self.y + 8 < 720:
             pygame.draw.ellipse(WIN, (255, 100, 100), (self.x + 8, self.y + 10, 10, 30))
             pygame.draw.circle(WIN, "red", (self.x + 12, self.y + 24), 2)
+            pygame.draw.circle(WIN, (200, 200, 255), (self.x + 48, self.y + 26), 5)
+            pygame.draw.circle(WIN, "blue", (self.x + 48, self.y + 26), 2)
+            pygame.draw.circle(WIN, (204, 161, 192), (self.x + 30, self.y + 30), 12)
+            eye_font = pygame.font.SysFont('Comic Sans', 36)
+            eye_surface = eye_font.render(f'X', False, "Red")
+            WIN.blit(eye_surface, (self.x + 15, self.y))
         if self.health / self.maxhealth < 0.5:
-            pygame.draw.rect(WIN, (36, 237, 234), (self.x + 46, self.y + 25, 6, 36))
-        pygame.draw.circle(WIN, (200, 200, 255), (self.x + 48, self.y + 26), 5)
-        pygame.draw.circle(WIN, "blue", (self.x + 48, self.y + 26), 2)
-        pygame.draw.circle(WIN, (204, 161, 192), (self.x + 30, self.y + 30), 12)
-        eye_font = pygame.font.SysFont('Comic Sans', 36)
-        eye_surface = eye_font.render(f'X', False, "Red")
-        WIN.blit(eye_surface, (self.x + 15, self.y))
+            pygame.draw.rect(WIN, (36, 237, 234), (self.x + 46, self.y + 28, 6, 33))
+
 
         if self.health < self.maxhealth:
-            self.show_healthbar(self.health, self.maxhealth)
+            self.show_healthbar(self.health, self.maxhealth, threshold_x=9, threshold_y=20)
             if self.timer % 20:
                 if self.health / self.maxhealth > 0.5:
                     self.health += 1

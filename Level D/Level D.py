@@ -1,4 +1,4 @@
-import csv
+import csv, sys
 from objects import *
 
 
@@ -71,11 +71,28 @@ class Menu:
         WIN.fill(BG_COLOUR)
         MOUSE_X, MOUSE_Y = pygame.mouse.get_pos()
 
-        menu_font =
-
         pygame.draw.rect(WIN, self.button_col, (400, 425, 480, 160))
+
+        menu_font = pygame.font.SysFont('Times New Roman', 72)
+        button_font = pygame.font.SysFont('Calibri', 48)
+        title1 = menu_font.render('Level D Demo', False, "White")
+        title2 = menu_font.render('"Circles Vs Squares"', False, "Black")
+        title3 = button_font.render('New Game', False, "White")
+        WIN.blit(title1, (430, 165))
+        WIN.blit(title2, (330, 240))
+        WIN.blit(title3, (540, 480))
+
+        pygame.draw.circle(WIN, (237, 123, 36), (100, 650), 200)
+        pygame.draw.rect(WIN, (242, 212, 189), (105, 550, 120, 120))
+        pygame.draw.rect(WIN, (84, 37, 0), (165, 560, 60, 60))
+
+        pygame.draw.rect(WIN, (200, 120, 120), (1000, 100, 280, 280))
+        pygame.draw.circle(WIN, "white", (1140, 240), 100)
+        pygame.draw.circle(WIN, (255, 100, 100), (1080, 270), 20)
+        pygame.draw.rect(WIN, (200, 120, 120), (1000, 100, 280, 80))
+
         pygame.display.update()
-        if 400 < MOUSE_X < 880 and 225 < MOUSE_Y < 385:
+        if 400 < MOUSE_X < 880 and 425 < MOUSE_Y < 585:
             if pygame.mouse.get_pressed()[0]:
                 pygame.mixer.music.load('music1.wav')
                 pygame.mixer.music.play(-1)
@@ -84,6 +101,8 @@ class Menu:
                 self.button_col = 50, 50, 50
         else:
             self.button_col = 10, 10, 10
+
+
 
 
 class Game:
@@ -99,6 +118,7 @@ class Game:
         self.firing = False
         self.LASER_COLOUR = 125, 125, 125
         self.timer = 0
+        self.starting_timer = 0
         pygame.mixer.music.load(f'music{level_num}.wav')
         pygame.mixer.music.play(-1)
 
@@ -154,8 +174,13 @@ class Game:
                                 self.enemies.remove(e)
                             except ValueError:
                                 pass
-            if abs(self.player.x - e.x) < 19 and abs(self.player.y - e.y) < 19:
-                self.player.health -= 1
+            if type(e) is BossEnemy:
+                if abs(self.player.x - e.x - 20) < 40 and abs(self.player.y - e.y - 20) < 40:
+                    self.player.health -= 10
+            else:
+                if abs(self.player.x - e.x - 4) < 24 and abs(self.player.y - e.y - 4) < 24:
+                    self.player.health -= 1
+
             e.move(self.player.x, self.player.y)
             e.display()
 
@@ -182,17 +207,42 @@ class Game:
         blit_alpha(WIN, level_surface, (600, 680), 127)
         blit_alpha(WIN, wave_surface, (1100, 600), 126)
 
-        self.timer += 1
+        screen_font = pygame.font.SysFont('Times New Roman', 144)
 
-        pygame.display.update()
+        if self.player.health <= 0:
+            self.starting_timer += 1
+            WIN.fill("Black")
+            gameover_surface = screen_font.render("Game Over!", False, "White")
+            WIN.blit(gameover_surface, (275, 265))
+            if self.starting_timer < 180:
+                pygame.mixer.music.stop()
+                pygame.mixer.Sound('gameover.wav').play(0)
+            if self.starting_timer > 480:
+                main()
 
         if len(self.enemies) == 0:
             if self.wave == len(self.level_data):
-                return 0
+                self.starting_timer += 1
+                WIN.fill((200, 200, 200))
+                surface = screen_font.render(
+                    "Level Clear!" if self.level_num != 5 else "You  Win! ",
+                    False, "Black")
+                WIN.blit(surface, (275 if self.level_num != 5 else 355, 265))
+                if self.starting_timer < 2:
+                    pygame.mixer.Sound('levelclear.wav'
+                                       if self.level_num != 5 else 'victory.wav').play(0)
+                elif 2 <= self.starting_timer <= 3:
+                    pygame.mixer.fadeout(1800) if self.level_num != 5 else pygame.mixer.music.stop()
+                elif self.starting_timer > (360 if self.level_num != 5 else 600):
+                    return 0 if self.level_num != 5 else main()
             else:
                 self.wave += 1
                 self.new_wave()
 
+
+        self.timer += 1
+
+        pygame.display.update()
         # to update the frames
 
 
@@ -224,9 +274,8 @@ def main():
     play(g, running)
     g = Game(LEVEL5, 5)
     play(g, running)
+    play(g, running)
 
-    # once the program stops running, quit program
-    pygame.quit()
 
 if __name__ == "__main__":
     main()
