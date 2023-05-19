@@ -36,7 +36,7 @@ class Player(Entity):
 
     def __init__(self, x, y, speed):
         super().__init__(x, y, speed)
-        self.maxhealth = 2a00
+        self.maxhealth = 200
         self.health = self.maxhealth
 
 

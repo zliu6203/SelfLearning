@@ -12,10 +12,10 @@
 \contentsline {subsection}{\numberline {3.1.}Strengths}{7}{subsection.0.3.1}%
 \contentsline {subsection}{\numberline {3.2.}Weaknesses}{7}{subsection.0.3.2}%
 \contentsline {subsection}{\numberline {3.3.}Usefulness}{7}{subsection.0.3.3}%
-\contentsline {subsection}{\numberline {3.4.}Key Question 1}{7}{subsection.0.3.4}%
-\contentsline {subsection}{\numberline {3.5.}Key Question 2}{7}{subsection.0.3.5}%
-\contentsline {section}{\numberline {4.}Level D: Evolution of skills}{8}{section.0.4}%
-\contentsline {subsection}{\numberline {4.1.}Level D Demonstration}{8}{subsection.0.4.1}%
-\contentsline {subsection}{\numberline {4.2.}Application artifacts}{8}{subsection.0.4.2}%
-\contentsline {subsection}{\numberline {4.3.}Alternative tools/technologies}{8}{subsection.0.4.3}%
-\contentsline {subsection}{\numberline {4.4.}Comparative Analysis}{8}{subsection.0.4.4}%
+\contentsline {subsection}{\numberline {3.4.}Key Question 1 - Is PyGame useful for 3D First Person games? Or only 2D games?}{7}{subsection.0.3.4}%
+\contentsline {subsection}{\numberline {3.5.}Key Question 2 - How good a Python programmer do you need to be before you can use PyGame effectively?}{7}{subsection.0.3.5}%
+\contentsline {section}{\numberline {4.}Level D: Evolution of skills}{9}{section.0.4}%
+\contentsline {subsection}{\numberline {4.1.}Level D Demonstration}{9}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {4.2.}Application artifacts}{9}{subsection.0.4.2}%
+\contentsline {subsection}{\numberline {4.3.}Alternative tools/technologies}{14}{subsection.0.4.3}%
+\contentsline {subsection}{\numberline {4.4.}Comparative Analysis}{14}{subsection.0.4.4}%

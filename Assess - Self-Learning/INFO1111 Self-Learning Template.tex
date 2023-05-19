@@ -49,7 +49,7 @@
 \textbf{\huge 2023 Semester 1}\\[2cm]
 \textbf{\huge Self-Learning Report}\\[3cm]
 
-\textbf{\huge Submission number: 2}\\[0.75cm]
+\textbf{\huge Submission number: 3}\\[0.75cm]
 \textbf{Github link: \url{https://github.com/zliu6203/SelfLearning}}\\[2cm]
 
 {\large
@@ -58,8 +58,8 @@
 	{\bf Student name} & Zhili Liu\\
 	{\bf Student ID} & 520451407\\
 	{\bf Topic} & PyGame\\
-	{\bf Levels already achieved} & X\\
-	{\bf Levels in this report} & B\\
+	{\bf Levels already achieved} & B\\
+	{\bf Levels in this report} & D\\
 	\hline
 \end{tabular}
 }
@@ -195,19 +195,19 @@ These two code snippets shows the Game class being the main class which handles 
 Level C focuses on showing that you have actually understood the tool or technology at a relatively advanced level. You will need to compare it to alternatives, identifying key strengths and weaknesses, and the areas where this tool is most effective. 
 
 \subsection{Strengths}
-What are the key strengths of the item you have learnt? (50-100 words)
+Python is an easy language to learn and PyGame is very lightweight (i.e., takes up little memory). PyGame can be a valuable introduction to game development as it allows beginners to learn the fundamentals of graphics programming, manipulating the GUI, interactivity, using sound and music libraries, and many more. Furthermore, PyGame excels at implementing simple functionalities using much less code than alternatives such as Unity or Unreal Engine, for example collisions and player input \cite{pygame_pros}. The PyGame community has plenty of sprites and sound files to choose from so the programmer does not need to make them from scratch.
 
 \subsection{Weaknesses}
-What are the key weaknesses of the item you have learnt? (50-100 words)
+PyGame contains limited features as well as lacking in speed when compared to alternatives. The Python language is generally much slower and more minimalistic than other C based languages including Java, C\#, and C++, the latter two are what Unity and Unreal Engine are based on. As such, PyGame syntax can be very confusing for more complex mechanics such as firing projectiles or implementing physics. PyGame is also “semi-portable” as distribution onto different platforms requires a native version of PyGame \cite{pygame_cons}, in addition to being difficult to distribute due to Python’s syntax, which are major inconveniences.  
 
 \subsection{Usefulness}
-Describe one scenario under which you believe the topic you have learnt could be useful. (50-100 words)
+PyGame is useful for developing small games in a short period of time as Python is very efficient at executing simple tasks \cite{pygame_uses}. One scenario is where an experienced game programmer or team comes up with an original idea for a game; instead of building the game directly, they can use PyGame to create a fast and simple design (as a planning phase) to spot potential loopholes and development issues. PyGame can be used as a tool for designing and testing more advanced game ideas using other engines simply due to how rapid the development can be.
 
-\subsection{Key Question 1}
-Note: This question is in the table in the ‘Self Learning: List of Topics’ page on Canvas. (50-100 words)
+\subsection{Key Question 1 - Is PyGame useful for 3D First Person games? Or only 2D games?}
+PyGame itself is only useful for 2D games due to a lack of physics engines, rendering software, and using 3D models and environments. PyGame can handle basic 3D graphics but that is done with incredibly long and complex code, while also being very slow. Furthermore, as discussed earlier, it is difficult to distribute the completed software, making it even less ideal to package 3D games. However, with the introduction of other modules such as PyOpenSQL and PyGlet to form PyEngine3D \cite{pygame_3d}, it is much more viable to create simple 3D games, many of which can be found in the community. However, it is observed that very few are first person 3D games, which shows the complexity of this task.
 
-\subsection{Key Question 2}
-Note: This question is in the table in the ‘Self Learning: List of Topics’ page on Canvas. (50-100 words)
+\subsection{Key Question 2 - How good a Python programmer do you need to be before you can use PyGame effectively?}
+PyGame, much like every other game engine, require a solid knowledge of objects, methods, modules and data from the parent language (Python) to create effective games. High-level control systems, such as the ones mentioned before, are needed to allow the developed game to be interactive and responsive to input. An understanding of classes and methods allows manipulation of one group of objects and easy replication of features (e.g., enemy or game structure). Moreover, other modules and using data is important for distribution of software, allow variability from other projects (promotes original ideas), and most importantly saving information to a local or online database for future access.\cite{pygame_python}
 
 
 %=============================================================================
@@ -217,26 +217,105 @@ Note: This question is in the table in the ‘Self Learning: List of Topics’ p
 \vspace{5mm}
 \subsection{Level D Demonstration}
 
-This is a short description of the application that you have developed. (50-100 words).
-\textit{{\bf IMPORTANT:} You might wish to submit this as part of an earlier submission in order to obtain feedback as to whether this is likely to be acceptable for level D.}
+I have developed a simple top-down shooter game where the goal is to clear a level of all enemies before moving on. In total there are 5 levels and 5 different types of enemies with their own unique abilities. The player controls a laser (space or mouse click) which can decrease the health of any enemies in contact with them. The game contains a main menu, as well as screens for victory, game over and level clear (see below). To run the program from GitHub, run the "level\_D.exe" file provided (does not work with Mac).
 
 \subsection{Application artifacts}
 
-Include here a description of what you actually created (what does it do? How does it work? How did you create it?). Include any code or other related artefacts that you created (these should also be included in your github repository).
+The actual application developed from PyGame is a .exe file generated from "auto-py-to-exe", much like level A:
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{auto-py-to-exe}
+    \caption{Using level D python file and the directory contents to convert to exe file.}
+\end{figure}
+\\\\
+When opened, the game greets the player with a menu screen, generated from the Menu class. This is always the first thing executed when main() is run, which makes it useful for replaying a game-over or victory:
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{mainmenu}
+    \caption{Main menu, "New Game" button turns gray when highlighted.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{menu_code}
+    \caption{Menu class}
+\end{figure}
+\\
+Furthermore, the user will also experience multiple music tracks and sound effects in the playthrough. These sounds are used from freesound.org \cite{freesound} as they are copyright free. How the music and SFX were implemented was based solely off of the official PyGame docs website \cite{pygame_mixer}. Some sounds were manipulated in FL Studio for EQ - making the game volume consistent as some sounds were much louder than others.
+\\\\\\\\\\
 
-If you do include screengrabs to show what you have done then these should be annotated to explain what it is showing and what the application does.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{flstudio}
+    \caption{The use of FL Studio to balance gain or volume of music/sound effects.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{shootingsound}
+    \caption{Implementation of the randomised shooting sound heard in-game.}
+\end{figure}
+When the game starts, every level contains its own music and "waves", which are set swarms of enemies defined by multiple csv files (comma separated values). The numbers shown in figure 8 represents how many of a particular type of enemy is to be spawned. Each row is one wave of enemy, so level 5 has 7 waves of enemies. Note that these csv files only define the number and types of enemies spawned in a wave/level and not their spawn location.
+The spawn location is instead defined by the function "enemy\_spawn" which returns a list of random coordinates outside of the screen. Enemies move much fast and are invincible outside the screen (figure 9).
+\\\\\\\\\\\\\\\\\\\\\\\\
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{csv}
+    \caption{Csv module in Python and working with csv files.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{random_spawn}
+    \caption{Function which randomises enemy spawn coordinates.}
+\end{figure}
+There are five different enemies implemented:
+\begin{itemize}
+  \item NormalEnemy - enemy with average health and speed (green)
+  \item FastEnemy - enemy with low health and fast speed (red)
+  \item TankyEnemy - enemy with high health and low speed (blue)
+  \item RegenEnemy - enemy with average health and speed but regenerates health (magenta)
+  \item BossEnemy - enemy which has the properties of all enemies (i.e., fast, tanky, and regenerates health) (black)
+\end{itemize}
+
+Each enemy has their own class which are children of the Enemy class, which is in turn a child of the Entity class. This class structure was explained level B. Each enemy's unique sprites were made by trial and error - adjusting the sprite depending on observation in game.
+
+Enemies show their health bar when their health is not full. This also applies for the player. BossEnemy removes more health than all other enemies, making them dangerous. All classes and objects (except Game and Menu) are defined in another file called "objects.py".
+
+Some gameplay and code for enemies are shown:
+\\
+\\
+\\\\\\
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{normal_enemy}
+    \caption{Class NormalEnemy has all properties of the green enemy}
+\end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{regen_enemy}
+    \caption{Class RegenEnemy allows the enemy to possess regeneration.}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{level4-5}
+    \caption{Screenshot of TankyEnemy (blue), RegenEnemy (magenta) and BossEnemy (black).}
+\end{figure}
+
+
+\newpage
+\newpage
 \subsection{Alternative tools/technologies}
-Identify 2 alternative tools/technologies that can be used instead of the one you studied for your topic. (e.g. if your topic was Python, then you might identify Java and Golang)
+Unreal Engine and Unity
 \subsection{Comparative Analysis}
-Describe situations in which both your topic and each of the identified alternatives would be preferred over the others (100-200 words).
+Unity is both a 3D and 2D game engine capable of producing high quality end-products. Like Unreal Engine, it is a multi-platform tool written in C languages. PyGame does not natively support 3D engines, but 2D games are much easier to conceptualise and develop in PyGame or Unity due to the simple tool set available (only python is needed to learn PyGame whereas extensive software knowledge is needed for both engines). As such, PyGame excels at designing quick-and-easy solutions, in addition to less computing power and memory/storage.\cite{unity_pygame}
 
+However, PyGame lacks the continual community support and frequent updates unlike Unreal Engine, which, despite its complexity, generates much better graphics and rendering technologies compared to even Unity. Unreal Engine allows development of quality games commonly seen in the commercial market, whereas Unity sees less due to less advanced graphics handling.\cite{unity_unreal}
 
+Ultimately, efficiency and simplicity is PyGame's best features, but it lacks complexity and 3D handling; Unreal Engine contain high quality features but it is difficult to learn and usually requires teams of programmers/graphic designers; Unity also contain high quality features AND workable alone, but it is relatively difficult to learn compared to PyGame and less graphic-intensive than Unreal Engine.
 
 %=============================================================================
 
 \newpage
-
 \bibliographystyle{ieeetran}
 \bibliography{main}
 
